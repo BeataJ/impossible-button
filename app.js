@@ -7,3 +7,8 @@ btn.addEventListener("mouseover", function() {
   btn.style.left = `${width}px`;
   btn.style.top = `${height}px`;
 });
+
+btn.addEventListener("click", function() {
+  btn.innerText = "You Got Me!";
+  document.body.style.backgroundColor = "green";
+});
